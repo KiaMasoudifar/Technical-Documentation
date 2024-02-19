@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>
+            <h1>How To JS</h1>
+        </header>
+
+        <ul>
+
+            <li>
+                <a href="#What_Is_JavaScript?" class="nav-link">What Is JavaScript?</a>
+                
+            </li>
+            <li>
+                <a href="#Who_Invented_JavaScript?" class="nav-link">Who Invented JavaScript?</a>
+            </li>
+            <li>
+                <a href="#JavaScript_Variables" class="nav-link">JavaScript Variables</a>
+                
+            </li>
+            <li>
+                <a href="#JavaScript_Functions" class="nav-link">JavaScript Functions</a>
+                
+            </li>
+
+            <li>
+                <a href="#JavaScript_If_Statements" class="nav-link">JavaScript If Statements</a>
+                
+            </li>
+
+            <li>
+                <a href="#Reference" class="nav-link">Reference</a>
+                
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <main id="main-doc">
+        <section class="main-section" id="What_Is_JavaScript?">
+            <header id="What_Is_Javascript">
+                <h1>What Is JavaScript?</h1>
+            </header>
+
+            <div class="info">
+                <p>JavaScript is a high-level, interpreted programming language primarily used for enhancing web pages with dynamic and interactive features. Developed in the mid-1990s, JavaScript quickly became one of the core technologies of the World Wide Web alongside HTML and CSS. Unlike HTML and CSS, which are markup and styling languages respectively, JavaScript is a full-fledged programming language that enables developers to manipulate the behavior and content of web pages.</p>
+
+                <p> It is widely supported by all modern web browsers and is commonly used for tasks such as creating dynamic web content, handling user interactions, and building web applications ranging from simple scripts to complex, feature-rich applications. Additionally, JavaScript has expanded beyond the web browser with frameworks like Node.js, allowing developers to build server-side and networking applications.</p>
+
+                <ul>
+                    <li>JavaScript is a high-level, interpreted programming language.</li>
+                    <li>It is primarily used for adding interactivity and dynamic features to web pages.</li>
+                    <li>Unlike HTML and CSS, JavaScript is a full-fledged programming language.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="main-section" id="Who_Invented_JavaScript?">
+            <header id="who_Invented_js">
+                <h1>Who Invented JavaScript?</h1>
+            </header>
+
+            <div class="info">
+                <p>
+                    JavaScript was invented by Brendan Eich in 1995 while he was working at Netscape Communications Corporation. It was initially developed under the name Mocha, which later evolved into LiveScript before finally being renamed JavaScript.
+                </p>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, deleniti.</p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, possimus?</p>
+                
+                <ul>
+                    <li>JavaScript was invented by Brendan Eich in 1995.</li>
+                    <li>Brendan Eich created JavaScript while working at Netscape Communications Corporation.</li>
+                    <li>The initial development of JavaScript was completed in just ten days.</li>
+                    <li>JavaScript was originally named Mocha, then LiveScript, before finally being renamed JavaScript.</li>
+                </ul>   
+            </div>
+
+
+        </section>
+
+        <section class="main-section" id="JavaScript_Variables">
+            <header id="js_Variables">
+                <h1>JavaScript Variables</h1>
+            </header>
+
+            <div class="info">
+                <p>JavaScript variables are essential elements within the language, serving as containers to temporarily store data. They hold various types of values such as numbers, strings, objects, or functions, which can be manipulated and referenced throughout a script. In JavaScript, variables are declared using keywords like var, let, or const, with var being the traditional approach and let and const introduced in ECMAScript 6 (ES6) to provide block-scoped variables.</p>
+                <p>These variables are dynamically typed, meaning they can hold values of any type, and their type can change during program execution. JavaScript variables also have different scopes, including global and local scopes, which determine where they can be accessed within a script. Understanding variables is crucial for effective JavaScript programming, as they play a central role in storing and managing data within applications and scripts.</p>
+
+                <code>// Declare variables using var, let, or const
+                    var age = 30; // using var (traditional approach) <br>
+                    let name = "John"; // using let (block-scoped variable) <br>
+                    const PI = 3.14; // using const (constant variable) <br></code>
+
+                    <code>// Variables can hold different types of values <br>
+                        let isStudent = true; // boolean value <br>
+                        let favoriteFruits = ["apple", "banana", "orange"]; // array <br>
+                        let person = { // object <br>
+                          firstName: "Jane", <br>
+                          lastName: "Doe", <br>
+                          age: 25, <br>
+                        };</code>
+            </div>
+        </section>
+
+
+
+        <section class="main-section" id="JavaScript_Functions">
+            <header id="js_Functions">
+                <h1>JavaScript Functions</h1>
+            </header>
+
+            <div class="info">
+                <p>JavaScript functions are reusable blocks of code that perform a specific task or calculate a value. They allow developers to encapsulate a set of instructions into a single unit, which can then be called multiple times throughout a script. Functions in JavaScript can take parameters, allowing them to accept input values, and can also return values as output. They play a crucial role in organizing code, improving readability, and promoting code reusability. JavaScript functions can be declared using the function keyword or using arrow function syntax introduced in ECMAScript 6 (ES6). Additionally, functions in JavaScript are first-class citizens, meaning they can be assigned to variables, passed as arguments to other functions, and returned from other functions, enabling powerful functional programming paradigms. Understanding functions is essential for effective JavaScript development, as they are a fundamental building block for creating modular, maintainable, and scalable code.</p>
+
+                <ul>
+                    <li>JavaScript functions are reusable blocks of code designed to perform specific tasks or calculate values.</li>
+                    <li>They encapsulate a set of instructions into a single unit, allowing for code organization and improved readability.</li>
+                    <li>Functions can accept parameters, enabling them to receive input values, and can also return values as output.</li>
+                </ul>
+
+                <code>// Define a function to calculate the area of a rectangle <br>
+                    function calculateArea(length, width) { <br>
+                      return length * width; <br>
+                    }
+                    
+                    // Call the function with arguments and store the result in a variable <br>
+                    let area = calculateArea(5, 3); <br>
+                     <br>
+                    // Print the result to the console <br>
+                    console.log("Area of the rectangle:", area); <br></code>
+
+                    <code>// Define a function to greet a user <br>
+                        const greetUser = (name) => { <br>
+                          return "Hello, " + name + "!"; <br>
+                        } <br>
+                        <br>
+                        // Call the function with an argument and store the result in a variable <br>
+                        let greeting = greetUser("John"); <br>
+                        <br>
+                        // Print the result to the console <br>
+                        console.log(greeting); <br></code>
+            </div>
+        </section>
+
+        <section class="main-section" id="JavaScript_If_Statements">
+            <header id="js_If_Statements">
+                <h1>JavaScript If Statements</h1>
+            </header>
+            
+            <div class="info">
+                <p>JavaScript if statements provide a mechanism for controlling the flow of a program based on conditional logic. They allow developers to execute specific blocks of code only if certain conditions are met. The basic syntax of an if statement consists of the keyword if, followed by a condition enclosed in parentheses, and then a block of code enclosed in curly braces. If the condition evaluates to true, the code within the block is executed; otherwise, it is skipped. Additionally, JavaScript if statements can be extended with else and else if clauses to handle alternative conditions.</p>
+                <p>This allows for more complex branching logic where different blocks of code are executed based on different conditions. If statements are fundamental to programming and are widely used in JavaScript to implement decision-making logic, making them essential for writing dynamic and interactive scripts and applications.</p>
+
+                <code>// Define a variable <br>
+                    let temperature = 25; <br>
+                    <br>
+                    // Check if the temperature is greater than 30 degrees Celsius <br>
+                    if (temperature > 30) { <br>
+                      console.log("It's hot outside!"); // If true, this code block will execute <br>
+                    } else { <br>
+                      console.log("It's not too hot outside."); // If false, this code block will execute <br>
+                    }</code>
+            </div>
+        </section>
+
+        <section class="main-section" id="Reference">
+            <header id="reference">
+                <h1>Reference</h1>
+            </header>
+            
+            <ul>
+                <li>All information from ChatGPT</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
